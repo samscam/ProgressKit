@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3AD65D11B426758009541CD"
-               BuildableName = "ProgressKit.app"
-               BlueprintName = "ProgressKit"
+               BlueprintIdentifier = "2247B7AE1DF82E17001B4C95"
+               BuildableName = "ProgressKit-macOS.framework"
+               BlueprintName = "ProgressKit-macOS"
                ReferencedContainer = "container:ProgressKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3AD65E31B426758009541CD"
-               BuildableName = "ProgressKitTests.xctest"
-               BlueprintName = "ProgressKitTests"
-               ReferencedContainer = "container:ProgressKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3AD65D11B426758009541CD"
-            BuildableName = "ProgressKit.app"
-            BlueprintName = "ProgressKit"
-            ReferencedContainer = "container:ProgressKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3AD65D11B426758009541CD"
-            BuildableName = "ProgressKit.app"
-            BlueprintName = "ProgressKit"
+            BlueprintIdentifier = "2247B7AE1DF82E17001B4C95"
+            BuildableName = "ProgressKit-macOS.framework"
+            BlueprintName = "ProgressKit-macOS"
             ReferencedContainer = "container:ProgressKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3AD65D11B426758009541CD"
-            BuildableName = "ProgressKit.app"
-            BlueprintName = "ProgressKit"
+            BlueprintIdentifier = "2247B7AE1DF82E17001B4C95"
+            BuildableName = "ProgressKit-macOS.framework"
+            BlueprintName = "ProgressKit-macOS"
             ReferencedContainer = "container:ProgressKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

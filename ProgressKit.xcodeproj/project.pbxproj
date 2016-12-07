@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2247B7B31DF82E17001B4C95 /* ProgressKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2247B7B11DF82E17001B4C95 /* ProgressKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2247B7B71DF82E30001B4C95 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31617A51BC0596C007AD70F /* BaseView.swift */; };
+		2247B7B81DF82E33001B4C95 /* IndeterminateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3918F8C1B4E8AB100558DAB /* IndeterminateAnimation.swift */; };
+		2247B7B91DF82E38001B4C95 /* MaterialProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3918F821B4E88DE00558DAB /* MaterialProgress.swift */; };
+		2247B7BA1DF82E3C001B4C95 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3918FA71B4ECF7100558DAB /* Rainbow.swift */; };
+		2247B7BB1DF82E41001B4C95 /* Crawler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A468511B5434F7006DDE31 /* Crawler.swift */; };
+		2247B7BC1DF82E44001B4C95 /* ShootingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3918F831B4E88DE00558DAB /* ShootingStars.swift */; };
+		2247B7BD1DF82E48001B4C95 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D1C6B1B676889001DBAF2 /* Spinner.swift */; };
+		2247B7BE1DF82E4B001B4C95 /* RotatingArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340FDB71BDE45F000CE6550 /* RotatingArc.swift */; };
+		2247B7BF1DF82E4E001B4C95 /* DeterminateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3918F8E1B4E8C2900558DAB /* DeterminateAnimation.swift */; };
+		2247B7C01DF82E51001B4C95 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3918F801B4E88CF00558DAB /* CircularProgressView.swift */; };
+		2247B7C11DF82E55001B4C95 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37568DE1B6AAB530073E26F /* ProgressBar.swift */; };
+		2247B7C21DF82FF9001B4C95 /* ProgressUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CCD5991BBC2B9B00F7DB9A /* ProgressUtils.swift */; };
 		E31617A61BC0596C007AD70F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31617A51BC0596C007AD70F /* BaseView.swift */; };
 		E340FDB81BDE45F000CE6550 /* RotatingArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340FDB71BDE45F000CE6550 /* RotatingArc.swift */; };
 		E35D1C6C1B676889001DBAF2 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35D1C6B1B676889001DBAF2 /* Spinner.swift */; };
@@ -37,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2247B7AF1DF82E17001B4C95 /* ProgressKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2247B7B11DF82E17001B4C95 /* ProgressKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProgressKit.h; path = Framework/ProgressKit.h; sourceTree = SOURCE_ROOT; };
+		2247B7B21DF82E17001B4C95 /* FrameworkInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = FrameworkInfo.plist; path = Framework/FrameworkInfo.plist; sourceTree = SOURCE_ROOT; };
 		E310B1D21D7AB2D4008DEF62 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E310B1D41D7AB2EA008DEF62 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		E31617A51BC0596C007AD70F /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
@@ -64,6 +80,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2247B7AB1DF82E17001B4C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3AD65CF1B426758009541CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,6 +145,7 @@
 			children = (
 				E3AD65D21B426758009541CD /* ProgressKit.app */,
 				E3AD65E41B426758009541CD /* ProgressKitTests.xctest */,
+				2247B7AF1DF82E17001B4C95 /* ProgressKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,7 +169,9 @@
 				E310B1D41D7AB2EA008DEF62 /* LICENSE */,
 				E3CCD5991BBC2B9B00F7DB9A /* ProgressUtils.swift */,
 				E3CCD5971BBC19ED00F7DB9A /* ProgressKit.podspec */,
+				2247B7B11DF82E17001B4C95 /* ProgressKit.h */,
 				E3AD65D61B426758009541CD /* Info.plist */,
+				2247B7B21DF82E17001B4C95 /* FrameworkInfo.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,7 +195,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2247B7AC1DF82E17001B4C95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2247B7B31DF82E17001B4C95 /* ProgressKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2247B7AE1DF82E17001B4C95 /* ProgressKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2247B7B61DF82E17001B4C95 /* Build configuration list for PBXNativeTarget "ProgressKit-macOS" */;
+			buildPhases = (
+				2247B7AA1DF82E17001B4C95 /* Sources */,
+				2247B7AB1DF82E17001B4C95 /* Frameworks */,
+				2247B7AC1DF82E17001B4C95 /* Headers */,
+				2247B7AD1DF82E17001B4C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProgressKit-macOS";
+			productName = "ProgressKit-macOS";
+			productReference = 2247B7AF1DF82E17001B4C95 /* ProgressKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		E3AD65D11B426758009541CD /* ProgressKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3AD65EE1B426758009541CD /* Build configuration list for PBXNativeTarget "ProgressKit" */;
@@ -216,6 +271,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Kauntey Suryawanshi";
 				TargetAttributes = {
+					2247B7AE1DF82E17001B4C95 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 					E3AD65D11B426758009541CD = {
 						CreatedOnToolsVersion = 6.3.2;
 						LastSwiftMigration = 0800;
@@ -242,11 +301,19 @@
 			targets = (
 				E3AD65D11B426758009541CD /* ProgressKit */,
 				E3AD65E31B426758009541CD /* ProgressKitTests */,
+				2247B7AE1DF82E17001B4C95 /* ProgressKit-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2247B7AD1DF82E17001B4C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3AD65D01B426758009541CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +332,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2247B7AA1DF82E17001B4C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2247B7C21DF82FF9001B4C95 /* ProgressUtils.swift in Sources */,
+				2247B7BB1DF82E41001B4C95 /* Crawler.swift in Sources */,
+				2247B7C11DF82E55001B4C95 /* ProgressBar.swift in Sources */,
+				2247B7B81DF82E33001B4C95 /* IndeterminateAnimation.swift in Sources */,
+				2247B7BE1DF82E4B001B4C95 /* RotatingArc.swift in Sources */,
+				2247B7BF1DF82E4E001B4C95 /* DeterminateAnimation.swift in Sources */,
+				2247B7BC1DF82E44001B4C95 /* ShootingStars.swift in Sources */,
+				2247B7BD1DF82E48001B4C95 /* Spinner.swift in Sources */,
+				2247B7B91DF82E38001B4C95 /* MaterialProgress.swift in Sources */,
+				2247B7BA1DF82E3C001B4C95 /* Rainbow.swift in Sources */,
+				2247B7C01DF82E51001B4C95 /* CircularProgressView.swift in Sources */,
+				2247B7B71DF82E30001B4C95 /* BaseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3AD65CE1B426758009541CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +403,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2247B7B41DF82E17001B4C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Framework/FrameworkInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaunteya.ProgressKit;
+				PRODUCT_NAME = ProgressKit;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2247B7B51DF82E17001B4C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Framework/FrameworkInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaunteya.ProgressKit;
+				PRODUCT_NAME = ProgressKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E3AD65EC1B426758009541CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -472,6 +613,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2247B7B61DF82E17001B4C95 /* Build configuration list for PBXNativeTarget "ProgressKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2247B7B41DF82E17001B4C95 /* Debug */,
+				2247B7B51DF82E17001B4C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E3AD65CD1B426758009541CD /* Build configuration list for PBXProject "ProgressKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
